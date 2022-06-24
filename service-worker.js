@@ -1,17 +1,18 @@
 const build = [
-  "/internal/immutable/start-305921b6.js",
+  "/internal/immutable/start-a57fe5ab.js",
   "/internal/immutable/pages/__layout.svelte-594e1813.js",
   "/internal/immutable/assets/pages/__layout.svelte-a0de8364.css",
   "/internal/immutable/error.svelte-f4eca7b7.js",
-  "/internal/immutable/pages/index.svelte-c3e92ee7.js",
+  "/internal/immutable/pages/index.svelte-68ce9630.js",
   "/internal/immutable/chunks/index-54ae59b6.js"
 ];
 const files = [
   "/background.jpg",
   "/favicon.png",
+  "/manifest.json",
   "/robots.txt"
 ];
-const version = "1656071526544";
+const version = "1656072222803";
 const worker = self;
 const FILES = `cache${version}`;
 const toCache = build.concat(files);
