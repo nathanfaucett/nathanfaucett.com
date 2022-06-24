@@ -16,6 +16,7 @@ jobs:
       - run: npm install -g npm@8.12.2
       - run: npm ci
       - run: npm run build
+      - run: echo 'www.nathanfaucett.com' > build/CNAME
 
       - uses: peaceiris/actions-gh-pages@v3
         with:
