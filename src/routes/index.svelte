@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Nathan Faucett</title>
 </svelte:head>
 
 <Home />
