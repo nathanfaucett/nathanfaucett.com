@@ -6,8 +6,16 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter(),
-		target: '#app'
+		adapter: adapter({
+			pages: 'build',
+			assets: 'build',
+			fallback: 'index.html',
+			precompress: true
+		}),
+		appDir: 'internal',
+		prerender: {
+			default: true
+		}
 	}
 };
 

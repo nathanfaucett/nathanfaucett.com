@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 14.x
 
-      - run: npm install -g npm@7.24.2
+      - run: npm install -g npm@8.12.2
       - run: npm ci
       - run: npm run web.build
 
